@@ -1,0 +1,16 @@
+html{
+    font-size: 62.5%;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    width: 10rem;
+    margin: 0 1rem;
+}
+div{
+    max-width: 10rem;
+    height: 10rem;
+    border: 1px black solid;
+}
