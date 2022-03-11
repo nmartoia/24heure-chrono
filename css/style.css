@@ -28,3 +28,27 @@ div{
 .bas{
     border-bottom: 1px black solid;
 }
+.droitgauche{
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+}
+.droithaut{
+    border-right: 1px black solid;
+    border-top: 1px black solid;
+}
+.droitbas{
+    border-right: 1px black solid;
+    border-bottom: 1px black solid;
+}
+.gauchhaut{
+    border-left: 1px black solid;
+    border-top: 1px black solid;
+}
+.gauchbas{
+    border-left: 1px black solid;
+    border-bottom: 1px black solid;
+}
+.hautbas{
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
