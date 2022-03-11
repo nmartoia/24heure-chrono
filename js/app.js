@@ -1,11 +1,9 @@
 let div = document.querySelectorAll("div");
-for (let i = 0; i < div.length; i++) {
-    div[i].className = ("tous");
-}
-let heure1 = 2
-let heure2 = 4
-let minute1 = 0
-let minute2 = 0
+let heure1 = 2;
+let heure2 = 4;
+let minute1 = 0;
+let minute2 = 0;
+let cadence = 60000;
 if(heure1==2){
     div[0].className = "droithautbas"
     div[1].className = "gauchhautbas"
@@ -67,7 +65,7 @@ else if(heure2 ==7){
     div[3].className = "droit"
 }
 else if(heure2 ==6){
-    div[2].className = "gauch"
+    div[2].className = "gauchhaut"
     div[3].className = "tous"
 }
 else if(heure2 ==5){
@@ -131,7 +129,7 @@ else if(minute2 ==7){
     div[7].className = "droit"
 }
 else if(minute2 ==6){
-    div[6].className = "gauch"
+    div[6].className = "gauchhaut"
     div[7].className = "tous"
 }
 else if(minute2 ==5){
@@ -159,4 +157,4 @@ else if(minute2==0){
     div[7].className = "gauchdroitbas"
 }
 console.log(heure1,heure2,minute1,minute2)
-},60000)
+},cadence)
