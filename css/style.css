@@ -19,7 +19,7 @@ div{
 .droit{
     border-right: 1px black solid;
 }
-.gauche{
+.gauch{
     border-left: 1px black solid;
 }
 .haut{
@@ -28,7 +28,7 @@ div{
 .bas{
     border-bottom: 1px black solid;
 }
-.droitgauche{
+.droitgauch{
     border-right: 1px black solid;
     border-left: 1px black solid;
 }
@@ -50,5 +50,25 @@ div{
 }
 .hautbas{
     border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+.gauchhautdroit{
+    border-top: 1px black solid;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+}
+.gauchhautbas{
+    border-top: 1px black solid;
+    border-left: 1px black solid;
+    border-bottom: 1px black solid;
+}
+.gauchdroitbas{
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+    border-bottom: 1px black solid;
+}
+.droithautbas{
+    border-top: 1px black solid;
+    border-right: 1px black solid;
     border-bottom: 1px black solid;
 }
