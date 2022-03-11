@@ -12,5 +12,19 @@ li{
 div{
     max-width: 10rem;
     height: 10rem;
+}
+.tous{
     border: 1px black solid;
+}
+.droit{
+    border-right: 1px black solid;
+}
+.gauche{
+    border-left: 1px black solid;
+}
+.haut{
+    border-top: 1px black solid;
+}
+.bas{
+    border-bottom: 1px black solid;
 }
