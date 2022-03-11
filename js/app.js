@@ -159,4 +159,4 @@ else if(minute2==0){
     div[7].className = "gauchdroitbas"
 }
 console.log(heure1,heure2,minute1,minute2)
-},600)
+},60000)
