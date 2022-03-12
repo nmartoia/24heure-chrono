@@ -13,6 +13,12 @@ div{
     max-width: 10rem;
     height: 10rem;
 }
+.point{
+    width: 5rem;
+    border: 1px solid black;
+    height: 5rem;
+    margin: 2.5rem;
+}
 .tous{
     border: 1px black solid;
 }

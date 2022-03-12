@@ -4,22 +4,14 @@ let heure2 = 4;
 let minute1 = 0;
 let minute2 = 0;
 let cadence = 60000;
-if(heure1==2){
     div[0].className = "droithautbas"
     div[1].className = "gauchhautbas"
-}
-if(heure2==4){
     div[2].className = "gauchdroitbas"
     div[3].className = "droit"
-}
-if(minute1==0){
-    div[4].className = "gauchhautdroit"
-    div[5].className = "gauchdroitbas"
-}
-if(minute2==0){
     div[6].className = "gauchhautdroit"
     div[7].className = "gauchdroitbas"
-}
+    div[8].className = "gauchhautdroit"
+    div[9].className = "gauchdroitbas"
 setInterval(function(){
 minute2--
 if(minute2<0){
@@ -93,68 +85,68 @@ else if(heure2==0){
     div[3].className = "gauchdroitbas"
 }
 if(minute1 ==5){
-    div[4].className = "gauchhautbas"
-    div[5].className = "droithautbas"
-}
-else if(minute1==4){
-    div[4].className = "gauchdroitbas"
-    div[5].className = "droit"
-}
-else if(minute1==3){
-    div[4].className = "droithautbas"
-    div[5].className = "droithautbas"
-}
-else if(minute1==2){
-    div[4].className = "droithautbas"
-    div[5].className = "gauchhautbas"
-}
-else if(minute1==1){
-    div[4].className = "droit"
-    div[5].className = "droit"
-}
-else if(minute1==0){
-    div[4].className = "gauchhautdroit"
-    div[5].className = "gauchdroitbas"
-}
-if(minute2 ==9){
-    div[6].className = "tous"
-    div[7].className = "droitbas"
-}
-else if(minute2 ==8){
-    div[6].className = "tous"
-    div[7].className = "tous"
-}
-else if(minute2 ==7){
-    div[6].className = "droithaut"
-    div[7].className = "droit"
-}
-else if(minute2 ==6){
-    div[6].className = "gauchhaut"
-    div[7].className = "tous"
-}
-else if(minute2 ==5){
     div[6].className = "gauchhautbas"
     div[7].className = "droithautbas"
 }
-else if(minute2==4){
+else if(minute1==4){
     div[6].className = "gauchdroitbas"
     div[7].className = "droit"
 }
-else if(minute2==3){
+else if(minute1==3){
     div[6].className = "droithautbas"
     div[7].className = "droithautbas"
 }
-else if(minute2==2){
+else if(minute1==2){
     div[6].className = "droithautbas"
     div[7].className = "gauchhautbas"
 }
-else if(minute2==1){
+else if(minute1==1){
     div[6].className = "droit"
     div[7].className = "droit"
 }
-else if(minute2==0){
+else if(minute1==0){
     div[6].className = "gauchhautdroit"
     div[7].className = "gauchdroitbas"
+}
+if(minute2 ==9){
+    div[8].className = "tous"
+    div[9].className = "droitbas"
+}
+else if(minute2 ==8){
+    div[8].className = "tous"
+    div[9].className = "tous"
+}
+else if(minute2 ==7){
+    div[8].className = "droithaut"
+    div[9].className = "droit"
+}
+else if(minute2 ==6){
+    div[8].className = "gauchhaut"
+    div[9].className = "tous"
+}
+else if(minute2 ==5){
+    div[8].className = "gauchhautbas"
+    div[9].className = "droithautbas"
+}
+else if(minute2==4){
+    div[8].className = "gauchdroitbas"
+    div[9].className = "droit"
+}
+else if(minute2==3){
+    div[8].className = "droithautbas"
+    div[9].className = "droithautbas"
+}
+else if(minute2==2){
+    div[8].className = "droithautbas"
+    div[9].className = "gauchhautbas"
+}
+else if(minute2==1){
+    div[8].className = "droit"
+    div[9].className = "droit"
+}
+else if(minute2==0){
+    div[8].className = "gauchhautdroit"
+    div[9].className = "gauchdroitbas"
 }
 console.log(heure1,heure2,minute1,minute2)
 },cadence)
